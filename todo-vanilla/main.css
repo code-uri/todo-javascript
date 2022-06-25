@@ -1,0 +1,79 @@
+button {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+  
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: black
+}
+
+
+
+.container {
+    padding: 15px;
+    border: 1px solid;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.todo-body {
+    padding: 10px 3px 10px 3px;
+    background-color:  bisque;
+    border-radius: 5px;
+}
+
+.todo-body .todo-input {
+    height: 50px;
+    width: 500px;  
+}
+.item {
+    padding: 10px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid;
+    border-color: grey;
+}
+
+.item button {
+    width: 100px;
+}
+
+.completed button{
+    background-color: black
+}
+.completed .edit-button, .hide{
+    display: none;
+    visibility: hidden;
+}
+
+.show {
+    display: inline-block;
+    visibility: visible;
+}
+
+.completed button:hover{
+    color: whitesmoke;
+}
+
+#todo-actions {
+    text-align: end;
+}
+
+/* Rounded border */
+hr.rounded {
+    border-top: 4px solid #bbb;
+    border-radius: 5px;
+}
+
+.item.completed{
+    background-color: #2fc5b3;
+}
